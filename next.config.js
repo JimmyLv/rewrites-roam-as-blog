@@ -21,8 +21,8 @@ module.exports = {
       },
       // Rewriting to an external URL
       {
-        source: '/roamcn/:slug',
-        destination: 'https://roamresearch.com/#/app/RoamCN/page/:slug',
+        source: '/roamcn',
+        destination: 'https://roamresearch.com',
       },
     ]
   },
