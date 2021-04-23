@@ -46,6 +46,21 @@ module.exports = {
       },
       // Rewriting to an external URL
       {
+        source: '/pwacompat.min.js',
+        destination: 'https://roamresearch.com/pwacompat.min.js',
+      },
+      // Rewriting to an external URL
+      {
+        source: '/manifest.webmanifest',
+        destination: 'https://roamresearch.com/manifest.webmanifest',
+      },
+      // Rewriting to an external URL
+      {
+        source: '/favicon.ico',
+        destination: 'https://roamresearch.com/favicon.ico',
+      },
+      // Rewriting to an external URL
+      {
         source: '/roamcn',
         destination: 'https://roamcn.club',
       },
@@ -53,6 +68,11 @@ module.exports = {
       {
         source: '/rr',
         destination: 'https://roamresearch.com/#/app/RoamCN',
+      },
+      // Rewriting to an external URL
+      {
+        source: '/rr2/:slug*',
+        destination: 'https://roamresearch.com/#/app/RoamCN/:slug*',
       },
     ]
   },
