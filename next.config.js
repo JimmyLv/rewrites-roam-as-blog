@@ -36,6 +36,16 @@ module.exports = {
       },
       // Rewriting to an external URL
       {
+        source: '/js/:slug*',
+        destination: 'https://roamresearch.com/js/:slug*',
+      },
+      // Rewriting to an external URL
+      {
+        source: '/assets/:slug*',
+        destination: 'https://roamresearch.com/assets/:slug*',
+      },
+      // Rewriting to an external URL
+      {
         source: '/roamcn',
         destination: 'https://roamcn.club',
       },
