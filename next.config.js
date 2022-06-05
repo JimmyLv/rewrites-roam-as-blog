@@ -86,19 +86,9 @@ module.exports = {
       },
       // Rewriting to an external URL
       {
-        source: '/roamcn',
-        destination: 'https://roamcn.club',
-      },
-      // Rewriting to an external URL
-      {
-        source: '/rr',
-        destination: 'https://roamresearch.com/#/app/RoamCN',
-      },
-      // Rewriting to an external URL
-      {
-        source: '/rr2/:slug*',
-        destination: 'https://roamresearch.com/#/app/RoamCN/:slug*',
-      },
+        source: '/:slug*',
+        destination: 'https://roamresearch.com',
+      }
     ]
   },
 }
