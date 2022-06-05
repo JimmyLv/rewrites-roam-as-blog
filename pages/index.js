@@ -18,6 +18,21 @@ const Index = () => (
       <nav>
         <ul className={styles.list}>
           <li>
+            <Link href="/roam">
+              <a>Visit Roam Research</a>
+            </Link>
+          </li>     
+          <li>
+            <Link href="/roam#app/LearnInPublic">
+              <a>Visit JimmyLv's Public Literature Notes</a>
+            </Link>
+          </li>
+          <li>
+            <Link href="/myblog">
+              <a>Visit JimmyLv's Blog, proxy for https://blog.jimmylv.info</a>
+            </Link>
+          </li>     
+          <li>
             <Link href="/about" as="/team">
               <a>Visit /team</a>
             </Link>
