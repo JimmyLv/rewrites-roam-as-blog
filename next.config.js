@@ -49,6 +49,11 @@ module.exports = {
         source: '/docs/:slug',
         destination: 'http://example.com/docs/:slug',
       },
+      // Rewriting to an external URL
+      {
+        source: '/thebrain',
+        destination: 'https://app.thebrain.com/brains/58237096-f2d5-46de-88b0-b23ecc50ac7d/thoughts/00c587f4-9553-49c3-9b65-5350bd3b3e71/attachments/95354c5c-e823-4e11-b741-58c3634bd6a5',
+      },
       // Wildcard Path Matching - will match `/blog/a` and `/blog/a/b`
       {
         source: '/myblog/:slug*',
