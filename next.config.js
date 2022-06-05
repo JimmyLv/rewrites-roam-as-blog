@@ -12,6 +12,14 @@ module.exports = {
             key: 'Access-Control-Allow-Methods',
             value: 'GET,HEAD,PUT,PATCH,POST,DELETE'
           },
+          { 
+            key: 'Content-Security-Policy',
+            value: "frame-ancestors 'self' https://app.thebrain.com"
+          },
+          {
+            key: 'X-Frame-Options',
+            value: 'ALLOW-FROM https://app.thebrain.com'
+          }
         ]
       }
     ]
